@@ -251,8 +251,6 @@ impl NBReader {
                                        .into());
                 }
             }
-            // nothing matched: wait a little
-            thread::sleep(time::Duration::from_millis(100));
         }
     }
 
